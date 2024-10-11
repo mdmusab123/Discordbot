@@ -1,0 +1,393 @@
+2024-10-12 03:16:58,510 - logging in using static token
+2024-10-12 03:17:00,426 - Shard ID None has connected to Gateway (Session ID: 6b26087481642480f2276505a21caa08).
+2024-10-12 03:18:42,262 - Ignoring exception in view <View timeout=None children=1> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 250, in close_callback
+    del active_tickets[user.id]
+        ~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 1238326844013674540
+2024-10-12 03:21:00,198 - logging in using static token
+2024-10-12 03:21:02,130 - Shard ID None has connected to Gateway (Session ID: 104b2d893d0506950d12b48b6d4226f8).
+2024-10-12 03:21:47,521 - User: md_abdullah25 | Query: sex | Response: Sorry, I couldn't find that Order ID. Please check and try again.
+2024-10-12 03:22:09,906 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 279, in close_ticket_callback
+    await private_channel.delete()
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\abc.py", line 867, in delete
+    await self._state.http.delete_channel(self.id, reason=reason)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-10-12 03:22:19,574 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 279, in close_ticket_callback
+    await private_channel.delete()
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\abc.py", line 867, in delete
+    await self._state.http.delete_channel(self.id, reason=reason)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-10-12 03:22:23,173 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 279, in close_ticket_callback
+    await private_channel.delete()
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\abc.py", line 867, in delete
+    await self._state.http.delete_channel(self.id, reason=reason)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-10-12 03:22:53,774 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 279, in close_ticket_callback
+    await private_channel.delete()
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\abc.py", line 867, in delete
+    await self._state.http.delete_channel(self.id, reason=reason)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-10-12 03:23:14,091 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 279, in close_ticket_callback
+    await private_channel.delete()
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\abc.py", line 867, in delete
+    await self._state.http.delete_channel(self.id, reason=reason)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\http.py", line 754, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10003): Unknown Channel
+2024-10-12 03:25:12,344 - logging in using static token
+2024-10-12 03:25:14,441 - Shard ID None has connected to Gateway (Session ID: c364a2dd04c327407cf3d1fcfdb10a26).
+2024-10-12 03:26:46,201 - User: md_abdullah25 | Query: 192.168.1.1 | Response: The status of IP `192.168.1.1` is \u2705 **ACTIVE**.
+2024-10-12 03:29:03,081 - User: musabahmed9533 | Query: 20240925-20172118 | Response: **Order Details:**
+**Name:** Md. Azraf Rosul
+**Email:** azrafrosul33@gmail.com
+**Phone Number:** +8801787870848
+**IP Given:** Not found
+**Order Date:** 25-09-2024
+**Total Amount:** 160 BDT
+**Package:** 1 Month - 100Mbps
+**Validation Status:** Valid\U0001f44c
+**Days Left:** 12
+\U0001f195 New Updated IP Details \U0001f195:
+IP: `49.0.41.6`
+User: `REXFTP`
+Port: `14852`
+Password: `REXFTP86325`
+
+2024-10-12 03:31:29,756 - logging in using static token
+2024-10-12 03:31:31,762 - Shard ID None has connected to Gateway (Session ID: 0973905c4941338209f962589d91a567).
+2024-10-12 03:31:51,055 - User: musabahmed9533 | Query: 20240925-20172118 | Response: **Order Details:**
+**Name:** Md. Azraf Rosul
+**Email:** azrafrosul33@gmail.com
+**Phone Number:** +8801787870848
+**IP Given:** Not found
+**Order Date:** 25-09-2024
+**Total Amount:** 160 BDT
+**Package:** 1 Month - 100Mbps
+**Validation Status:** Valid\U0001f44c
+**Days Left:** 12
+\U0001f195 New Updated IP Details \U0001f195:
+IP: `49.0.41.6`
+User: `REXFTP`
+Port: `14852`
+Password: `REXFTP86325`
+
+2024-10-12 03:31:58,569 - User: md_abdullah25 | Query: 192.168.1.1 | Response: The status of IP `192.168.1.1` is \u274c **INACTIVE**.
+2024-10-12 03:32:21,661 - User: md_abdullah25 | Query: 192.168.1.1 | Response: The status of IP `192.168.1.1` is \u2705 **ACTIVE**.
+2024-10-12 03:33:09,215 - User: md_abdullah25 | Query: 20240925-20172118 | Response: **Order Details:**
+**Name:** Md. Azraf Rosul
+**Email:** azrafrosul33@gmail.com
+**Phone Number:** +8801787870848
+**IP Given:** Not found
+**Order Date:** 25-09-2024
+**Total Amount:** 160 BDT
+**Package:** 1 Month - 100Mbps
+**Validation Status:** Valid\U0001f44c
+**Days Left:** 12
+\U0001f195 New Updated IP Details \U0001f195:
+IP: `49.0.41.6`
+User: `REXFTP`
+Port: `14852`
+Password: `REXFTP86325`
+
+2024-10-12 03:36:37,592 - User: md_abdullah25 | Query: 20240925-20172118 | Response: **Order Details:**
+**Name:** Md. Azraf SEX
+**Email:** azrafrosul33@gmail.com
+**Phone Number:** +8801787870848
+**IP Given:** Not found
+**Order Date:** 25-09-2024
+**Total Amount:** 160 BDT
+**Package:** 1 Month - 100Mbps
+**Validation Status:** Valid\U0001f44c
+**Days Left:** 12
+\U0001f195 New Updated IP Details \U0001f195:
+IP: `49.0.41.6`
+User: `REXFTP`
+Port: `14852`
+Password: `REXFTP86325`
+
+2024-10-12 03:40:11,480 - logging in using static token
+2024-10-12 03:40:13,653 - Shard ID None has connected to Gateway (Session ID: 3a723692aedc6aa8c3cf665001305ec1).
+2024-10-12 03:43:02,739 - logging in using static token
+2024-10-12 03:43:04,803 - Shard ID None has connected to Gateway (Session ID: 01bdc30f839f4b527296cec453634d05).
+2024-10-12 03:43:41,456 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 159, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
+2024-10-12 03:43:54,476 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 140, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:47:38,797 - logging in using static token
+2024-10-12 03:47:40,814 - Shard ID None has connected to Gateway (Session ID: b5b271840555fa51f43f4eabf2dc60e7).
+2024-10-12 03:48:11,020 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 147, in yes_callback
+    await interaction.response.defer(ephemeral=True)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 709, in defer
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:48:44,836 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 147, in yes_callback
+    await interaction.response.defer(ephemeral=True)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 709, in defer
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:50:20,010 - logging in using static token
+2024-10-12 03:50:22,224 - Shard ID None has connected to Gateway (Session ID: d023bfbda03f6b5724d01b5f8d21887e).
+2024-10-12 03:51:15,867 - logging in using static token
+2024-10-12 03:51:17,751 - Shard ID None has connected to Gateway (Session ID: 46d4786f1c119d944fadb3b0fc61ed76).
+2024-10-12 03:52:16,581 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='IP Status' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 291, in ip_status_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: connection timeout
+2024-10-12 03:52:17,764 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 297, in close_ticket_callback
+    await interaction.response.send_message("Thank you! The ticket is now closed.")
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
+2024-10-12 03:52:27,906 - logging in using static token
+2024-10-12 03:52:29,845 - Shard ID None has connected to Gateway (Session ID: fc60d7458179c5155d1025e4aaa23d4d).
+2024-10-12 03:53:11,161 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:53:13,085 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='My proxy is not working' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 238, in proxy_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:53:20,028 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.danger: 4> url=None disabled=False label='No' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 329, in no_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:53:37,042 - logging in using static token
+2024-10-12 03:53:38,896 - Shard ID None has connected to Gateway (Session ID: 67f9fcda232cd4a3ddf2f8d56d8833d2).
+2024-10-12 03:54:08,504 - logging in using static token
+2024-10-12 03:54:10,405 - Shard ID None has connected to Gateway (Session ID: 99c7757fdf8193d7a789a3157360716a).
+2024-10-12 03:54:19,898 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 154, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:54:47,344 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 154, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
+2024-10-12 03:56:22,033 - logging in using static token
+2024-10-12 03:56:24,121 - Shard ID None has connected to Gateway (Session ID: 74aaa442fc217b45d78a8eaa4f8b7e27).
+2024-10-12 03:56:46,039 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:57:03,797 - logging in using static token
+2024-10-12 03:57:05,691 - Shard ID None has connected to Gateway (Session ID: c4288dfbfb59fc4be1e02af15465e770).
+2024-10-12 03:57:26,553 - logging in using static token
+2024-10-12 03:57:28,419 - Shard ID None has connected to Gateway (Session ID: 0e07459604ae23753a38d1b29729ab2b).
+2024-10-12 03:58:52,262 - logging in using static token
+2024-10-12 03:58:59,320 - Shard ID None has connected to Gateway (Session ID: bf3c7b72f35808db3249c2dd4f5b4a5d).
+2024-10-12 03:59:18,372 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 03:59:37,067 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
+2024-10-12 04:00:47,494 - logging in using static token
+2024-10-12 04:00:49,580 - Shard ID None has connected to Gateway (Session ID: 3b9961de13761e720183c62ed32843d1).
+2024-10-12 04:01:03,197 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 04:01:19,456 - logging in using static token
+2024-10-12 04:01:21,523 - Shard ID None has connected to Gateway (Session ID: 4b528e9d937d4d575e30ace850aa90fe).
+2024-10-12 04:01:55,983 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 04:02:07,418 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\tempCodeRunnerFile.py", line 153, in yes_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 233, in request
+    raise DiscordServerError(response, data)
+discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
+2024-10-12 04:06:22,450 - logging in using static token
+2024-10-12 04:06:24,450 - Shard ID None has connected to Gateway (Session ID: e911b5babc1c4c2602c402915a590eb7).
+2024-10-12 04:06:37,891 - Ignoring exception in view <View timeout=None children=2> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Yes' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 147, in yes_callback
+    await interaction.response.defer(ephemeral=True)
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 709, in defer
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 04:06:54,979 - Ignoring exception in view <View timeout=None children=3> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='My proxy is not working' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 248, in proxy_callback
+    await interaction.response.send_message(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 04:06:59,235 - User: md_abdullah25 | Query: 20240925-20172118 | Response: IP address `20240925-20172118` not found in our records.
+2024-10-12 04:07:13,970 - Ignoring exception in view <View timeout=None children=1> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='Close Ticket' emoji=None row=None sku_id=None>
+Traceback (most recent call last):
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\ui\view.py", line 430, in _scheduled_task
+    await item.callback(interaction)
+  File "i:\Torrents\Musab\DiscordBT\main.py", line 609, in close_callback
+    await interaction.response.send_message("Thank you! The ticket is now closed.")
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\interactions.py", line 855, in send_message
+    await adapter.create_interaction_response(
+  File "I:\Torrents\Musab\DiscordBT\.venv\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2024-10-12 04:09:13,333 - logging in using static token
+2024-10-12 04:09:15,326 - Shard ID None has connected to Gateway (Session ID: 0d25bec70d4e148ac198ff60f53cd31a).
+2024-10-12 04:09:39,021 - User: md_abdullah25 | Query: dhon | Response: IP address `dhon` not found in our records.
