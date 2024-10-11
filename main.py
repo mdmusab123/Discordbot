@@ -173,7 +173,7 @@ async def greet_user(channel):
             custom_id="help_proxy_button"
         )
         ip_status_button = Button(
-            label="IP Status",
+            label="Check IP Status",
             style=discord.ButtonStyle.success,  # Changed style to success (green color)
             custom_id="ip_status_button"
         )
