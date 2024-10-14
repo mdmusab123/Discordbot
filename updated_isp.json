@@ -22,5 +22,10 @@
         "user": "REXFTP",
         "port": "4040",
         "password": "REXFTP563258"
-    }
+    },
+    "1 Month - 30Mbps": {
+        "ip": "49.0.41.6",
+        "user": "REXFTP",
+        "port": "14852",
+        "password": "REXFTP86325"
 }
