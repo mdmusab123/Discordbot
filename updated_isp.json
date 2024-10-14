@@ -6,22 +6,22 @@
         "password": "REXFTP86325"
     },
     "1 Month - 50Mbps": {
-        "ip": "103.35.109.22",
+        "ip": "49.0.41.6",
         "user": "REXFTP",
-        "port": "4040",
-        "password": "REXFTP563258"
+        "port": "14852",
+        "password": "REXFTP86325"
     },
     "1 Month - 40Mbps": {
-        "ip": "103.35.109.22",
+        "ip": "49.0.41.6",
         "user": "REXFTP",
-        "port": "4040",
-        "password": "REXFTP563258"
+        "port": "14852",
+        "password": "REXFTP86325"
     },
     "1 Month - 20Mbps": {
-        "ip": "103.35.109.22",
+        "ip": "49.0.41.6",
         "user": "REXFTP",
-        "port": "4040",
-        "password": "REXFTP563258"
+        "port": "14852",
+        "password": "REXFTP86325"
     },
     "1 Month - 30Mbps": {
         "ip": "49.0.41.6",
