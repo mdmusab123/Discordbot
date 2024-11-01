@@ -244,7 +244,7 @@ async def greet_user(channel):
                 persistent_views.append(update_button_view)
 
                 await interaction.response.send_message(
-                    "Update is available! Do you want to update your proxy?",
+                    "Proxy Update 2024.11.1.3 is available! Do you want to update your proxy?",
                     view=update_button_view
                 )
             else:
